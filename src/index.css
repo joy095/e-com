@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.cards {
+  @apply h-[400px] w-full object-cover;
+}
