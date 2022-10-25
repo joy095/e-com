@@ -1,16 +1,14 @@
-import Header from "./Components/Header";
-import Main from "./Components/Main";
+import { Route, Routes } from "react-router-dom";
+import Home from "./Components/Home";
+import Login from "./Components/Login";
 
 function App() {
   return (
     <div>
-      <section>
-        <Header />
-      </section>
-
-      <section>
-        <Main />
-      </section>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/login" element={<Login />} />
+      </Routes>
     </div>
   );
 }

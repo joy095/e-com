@@ -1,6 +1,5 @@
 import Banner from "../cards/Banner";
 import Card from "../cards/Card";
-import LoginCard from "../cards/LoginCard";
 
 const Main = () => {
   return (
@@ -11,9 +10,6 @@ const Main = () => {
       <main>
         <Card />
       </main>
-      <section>
-        <LoginCard />
-      </section>
     </div>
   );
 };

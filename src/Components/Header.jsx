@@ -29,9 +29,9 @@ const Header = () => {
             }
             transition
           >
-            <MenuItem>New File</MenuItem>
-            <MenuItem>Save</MenuItem>
-            <MenuItem>Close Window</MenuItem>
+            <MenuItem>Sign in</MenuItem>
+            <MenuItem>Log out</MenuItem>
+            <MenuItem>Account</MenuItem>
           </Menu>
         </div>
       </div>
